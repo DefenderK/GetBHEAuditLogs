@@ -1,0 +1,13 @@
+{
+  "url": "https://your-bloodhound.example",
+  "token_id": "",
+  "token_key": "",
+  "bearer_token": "",
+  "default_days": 7,
+  "output_format": "table",
+  "verify_ssl": true,
+  "timeout_seconds": 30,
+  "page_size": 500,
+  "max_retries": 3,
+  "retry_delay_seconds": 1
+}
