@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.coverage
+.coverage.*
+.venv/
+venv/
+ENV/
+env/
+.vscode/
+.idea/
+*.log
+
+# PowerShell
+*.ps1~
+*.psc1
+*.psd1~
+
+# Config files with secrets
+*.config.json
+config.json
+!*.config.example.json
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*
+!.env.example
+
+# Project specific
+# Local-only validation assets (do not publish)
+tests/
+output/
+logs/
+audit_logs_*.json
+audit_logs_*.csv
+audit_logs_*.jsonl
